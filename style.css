@@ -19,6 +19,7 @@ html {
     align-items: center;
     justify-content: space-between;
     flex: 1;
+    margin-top: 10px;
   }
   
   a {
@@ -32,7 +33,7 @@ html {
     display: inline;
     color: #F9FAF8;
     font-size: 24px;
-    padding-left: 10px;
+    font-weight: bold;
   }
   
   ul {
@@ -42,3 +43,49 @@ html {
     margin: 0;
   }
   
+  h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+
+  .landing-text-image {
+    margin-top: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .heading-left {
+    max-width: 50%;
+  }
+
+  div {
+    display: inline;
+  }
+
+ .hero-text {
+  max-width: 50%;
+  display: inline;
+ }
+
+ .landing-image {
+  display: inline-block;
+ }
