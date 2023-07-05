@@ -160,3 +160,46 @@ html {
   text-align: right;
   margin-right: 40px;
 }
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+.blue-container {
+  margin: 100px 12% 100px 12%;
+  background-color: #3882f6;
+  padding: 30px 100px 30px 100px;
+  border-radius: 10px;
+  flex-direction: row;
+  color: #F9FAF8;
+  justify-content: space-between;
+  display: flex;
+  gap: 30px;
+}
+
+.sign-text {
+  text-align: left;
+  display: inline-block;
+}
+
+.top-text {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+
+.button2 {
+  display: inline-block;
+  padding-top: 7px;
+}
+
+.button2-style {
+  background-color: #3882f6;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
